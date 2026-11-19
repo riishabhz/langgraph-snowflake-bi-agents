@@ -40,9 +40,9 @@ graph TD;
     analyst_agent -. failed 3 times .-> summary_agent;
     bi_agent --> summary_agent;
     summary_agent --> __end__;
-    classDef default fill:#f2f0ff,line-height:1.2
-    classDef first fill-opacity:0
-    classDef last fill:#bfb6fc
+    classDef default fill:#f2f0ff,stroke:#6250d6,color:#0b0b0b,line-height:1.2
+    classDef first fill:#ffffff,stroke:#6250d6,color:#0b0b0b
+    classDef last fill:#bfb6fc,stroke:#6250d6,color:#0b0b0b
 ```
 ---
 
