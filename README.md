@@ -1,4 +1,6 @@
-# LangGraph Snowflake BI Agents
+# LangGraph Multi-Agent Analytics on Snowflake
+
+**Analyst agent + BI agent + Summary agent: ask a business question in plain English, get back a full dashboard.**
 
 Three AI agents work in a LangGraph pipeline on top of a governed Snowflake semantic layer:
 
