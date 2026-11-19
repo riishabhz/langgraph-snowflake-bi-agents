@@ -25,7 +25,25 @@ The result is an interactive dashboard with KPI cards, charts, a narrative and t
 
 <img width="953" height="471" alt="image" src="https://github.com/user-attachments/assets/bfb09186-d419-4016-8768-020e72c2b107" />
 
+## Agent graph (generated from the code)
 
+```mermaid
+graph TD;
+    __start__([start]):::first
+    analyst_agent(Analyst agent)
+    bi_agent(BI agent)
+    summary_agent(Summary agent)
+    __end__([end]):::last
+    __start__ --> analyst_agent;
+    analyst_agent -. SQL worked .-> bi_agent;
+    analyst_agent -. failed, retry .-> analyst_agent;
+    analyst_agent -. failed 3 times .-> summary_agent;
+    bi_agent --> summary_agent;
+    summary_agent --> __end__;
+    classDef default fill:#f2f0ff,line-height:1.2
+    classDef first fill-opacity:0
+    classDef last fill:#bfb6fc
+```
 ---
 
 ## Why I built this
