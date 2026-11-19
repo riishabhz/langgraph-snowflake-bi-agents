@@ -1,0 +1,15 @@
+langgraph>=1.0
+langchain-core>=1.0
+# langchain-snowflake>=0.2.3   (only for LLM_PROVIDER=cortex on a paid account)
+snowflake-snowpark-python>=1.20
+python-dotenv
+pandas
+tabulate
+plotly>=5.24
+markdown
+json-repair
+cryptography
+streamlit
+langchain-google-genai>=4.0
+# only if LLM_PROVIDER=anthropic
+# langchain-anthropic
