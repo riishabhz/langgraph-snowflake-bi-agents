@@ -1,8 +1,12 @@
 # LangGraph Snowflake BI Agents
 
-**Ask a business question in plain English. Get back a full dashboard.**
+Three AI agents work in a LangGraph pipeline on top of a governed Snowflake semantic layer:
 
-Three AI agents work in a LangGraph pipeline on top of a governed Snowflake semantic layer. The Analyst agent writes and runs the SQL. The BI agent designs the dashboard and runs its own supporting queries. The Summary agent writes the story. The result is an interactive dashboard with KPI cards, charts, a narrative and the SQL behind every number.
+- **Analyst agent** writes and runs the SQL
+- **BI agent** designs the dashboard and runs its own supporting queries
+- **Summary agent** writes the story
+
+The result is an interactive dashboard with KPI cards, charts, a narrative and the SQL behind every number.
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![LangGraph](https://img.shields.io/badge/LangGraph-multi--agent-purple)
