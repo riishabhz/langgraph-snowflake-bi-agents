@@ -12,8 +12,13 @@ Three AI agents work in a LangGraph pipeline on top of a governed Snowflake sema
 
 **Live demo:** _add your Streamlit Cloud link here_ (password protected)
 
-![App screenshot](docs/app.png)
-![Dashboard screenshot](docs/dashboard.png)
+<img width="950" height="472" alt="image" src="https://github.com/user-attachments/assets/f9fe3b11-fd7a-401a-b4dc-0e0552bf8ea2" />
+
+<img width="947" height="473" alt="image" src="https://github.com/user-attachments/assets/1bc0fd0e-aa7c-4b03-8b6a-6ae1ce11a755" />
+
+
+<img width="953" height="471" alt="image" src="https://github.com/user-attachments/assets/bfb09186-d419-4016-8768-020e72c2b107" />
+
 
 ---
 
